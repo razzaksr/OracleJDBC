@@ -9,6 +9,10 @@ public class App
     public static void main( String[] args )
     {
         DAO dao= DAO.getDao();
-        dao.check();
+        //dao.insertNew();
+        //dao.check();
+        //dao.update();
+        dao.delete();
+        dao.readOne();
     }
 }
